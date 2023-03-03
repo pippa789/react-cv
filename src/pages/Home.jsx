@@ -1,15 +1,18 @@
 import React from 'react';
 import styled from 'styled-components';
 
+
+
 const Title = styled.div`
 color: white;
-font-size: 125px;
-font-family: 'Phudu', cursive
+font-size: 100px;
+font-family: 'Phudu', cursive;
+background: black;
 `;
 
 function Home() {
   return (
-    <div>
+    <>
     <Title>Welcome, My name is Pip</Title>
     <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
     labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
@@ -21,7 +24,7 @@ function Home() {
     eiusmod. Aliqua reprehenderit commodo ex non excepteur duis sunt velit enim.
     Voluptate laboris sint cupidatat ullamco ut ea consectetur et est culpa et
     culpa duis.</p>
-    </div>
+   </>
   )
 }
 

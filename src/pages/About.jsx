@@ -1,9 +1,14 @@
-import React from 'react'
+import React from 'react';
+import styled from 'styled-components';
+
+const AboutTitle = styled.h1`
+color: white;
+`;
 
 function About() {
   return (
     <div>
-    <h1>About</h1>
+    <AboutTitle>boAut</AboutTitle>
     <p>Lorem ipsum dolor sit amet, officia excepteur ex fugiat reprehenderit enim
     labore culpa sint ad nisi Lorem pariatur mollit ex esse exercitation amet. Nisi
     animcupidatat excepteur officia. Reprehenderit nostrud nostrud ipsum Lorem est
