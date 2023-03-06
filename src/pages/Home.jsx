@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const Welcome = styled.div`
 color: white;
-font-size: 100px;
+font-size: 50px;
 font-family: 'Phudu', cursive;
 background: black;
 `;
@@ -17,7 +17,7 @@ font-size:75px;
 
 const TagLine = styled.div`
 color:white;
-font-size:50px;
+font-size:25px;
 `;
 
 function Home() {

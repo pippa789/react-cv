@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 const LinkContainer = styled.div`
   display:flex;
+  flex-direction:collumn;
   justify-content:center;
   align-items:center;
   // background-color:black;
@@ -11,17 +12,14 @@ const LinkContainer = styled.div`
   height:50px;
 `;
 
-
-function NavBar() {
+function footer() {
   return (
-    
     <LinkContainer>
       <Link className='linkstyle' to="/react-cv/">Home</Link>
       <Link className='linkstyle' to="/react-cv/about">About</Link>
       <Link className='linkstyle' to="/react-cv/Contact">Contact me</Link>
-      <Link className='linkstyle' to="/react-cv/projects">Projects</Link>
     </LinkContainer>
   )
 }
 
-export default NavBar
+export default footer
