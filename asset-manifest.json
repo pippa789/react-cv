@@ -1,10 +1,15 @@
 {
   "files": {
-    "main.js": "/react-cv/static/js/main.95f88d98.js",
+    "main.css": "/react-cv/static/css/main.5f38f84a.css",
+    "main.js": "/react-cv/static/js/main.fad5311a.js",
+    "static/media/wildflowers.png": "/react-cv/static/media/wildflowers.827d8b265cf1b9ad3b16.png",
+    "static/media/calculator.png": "/react-cv/static/media/calculator.a13735df76094b61017f.png",
     "index.html": "/react-cv/index.html",
-    "main.95f88d98.js.map": "/react-cv/static/js/main.95f88d98.js.map"
+    "main.5f38f84a.css.map": "/react-cv/static/css/main.5f38f84a.css.map",
+    "main.fad5311a.js.map": "/react-cv/static/js/main.fad5311a.js.map"
   },
   "entrypoints": [
-    "static/js/main.95f88d98.js"
+    "static/css/main.5f38f84a.css",
+    "static/js/main.fad5311a.js"
   ]
 }
