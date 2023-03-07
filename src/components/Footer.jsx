@@ -4,12 +4,13 @@ import styled from 'styled-components';
 
 const LinkContainer = styled.div`
   display:flex;
-  flex-direction:collumn;
+  flex-direction:column;
   justify-content:center;
-  align-items:center;
+  align-items:flex-start;
   // background-color:black;
   width:100%;
   height:50px;
+  margin-top:200px;
 `;
 
 function footer() {

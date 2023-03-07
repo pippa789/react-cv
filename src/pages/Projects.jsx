@@ -1,5 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
+import wildflowers from '../images/wildflowers.png';
+import calculator from '../images/calculator.png';
 
 const Container= styled.div`
 display: flex;
@@ -23,15 +25,11 @@ function Projects() {
     <Box>
       <div className="project">
         <img src={calculator} alt="brain" width='350vw' height='250vh' />
-          <button className="see-more" onClick={() => setModalOpen(true)} >see more</button>
+          
       </div>
       <div className="project">
-        <img src={guide} alt="brain" width='350vw' height='250vh' />
-          <button className="see-more" onClick={() => setModalOpen1(true)} >see more</button>
-      </div> 
-      <div className="project">
         <img src={wildflowers} alt="brain" width='350vw' height='250vh' />
-          <button className="see-more" onClick={() => setModalOpen2(true)} >see more</button> 
+          
      </div>
     </Box>
     </Container>

@@ -4,15 +4,29 @@ import styled from 'styled-components';
 
 
 const Welcome = styled.div`
-color: white;
-font-size: 50px;
+display:flex;
+justify-content: center;
+align-items: center;
+color: black;
+font-size: 60px;
 font-family: 'Phudu', cursive;
-background: black;
+background: white;
+width:300px;
+margin: 125px 150px 10px 125px;
+transform: rotate(20deg);
+
 `;
 
 const Name = styled.h1`
 color: white;
-font-size:75px;
+font-size:70px;
+font-family: 'Quicksand', sans-serif;
+// transform: skew(30deg);
+// font-family: 'Abel', sans-serif;
+margin: 10px 100px 50px 300px;
+font-weight: 100;
+
+
 `;
 
 const TagLine = styled.div`
@@ -22,12 +36,11 @@ font-size:25px;
 
 function Home() {
   return (
-    <>
-    <Welcome>Welcome</Welcome> 
-   <Name> My name is Pip</Name>
-   <TagLine>I'm a Jr developer looking for a front end role.</TagLine>
-    
-   </>
+  <>
+    <Welcome >Welcome</Welcome> 
+    <Name> My name is Pip</Name>
+    <TagLine>I'm a Jr developer looking for a front end role.</TagLine>
+  </>
   )
 }
 
