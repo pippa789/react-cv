@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 
 const LinkContainer = styled.div`
@@ -10,15 +9,19 @@ const LinkContainer = styled.div`
   // background-color:black;
   width:100%;
   height:50px;
-  margin-top:200px;
-`;
+  margin:140px auto 20px 100px;
+  // border-top: 1px;
+  // border-color: white;
+ `;
+ 
+  
+ 
 
 function footer() {
   return (
-    <LinkContainer>
-      <Link className='linkstyle' to="/react-cv/">Home</Link>
-      <Link className='linkstyle' to="/react-cv/about">About</Link>
-      <Link className='linkstyle' to="/react-cv/Contact">Contact me</Link>
+    <LinkContainer className='line'>
+    <a className='linkstyle'href="https://github.com/pippa789 "target="_blank" rel="noreferrer">Github</a>
+    <a className='linkstyle'href="https://www.linkedin.com/in/pip-allen-1b9692205/"target="_blank" rel="noreferrer">LinkedIn</a>
     </LinkContainer>
   )
 }

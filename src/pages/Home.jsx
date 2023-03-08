@@ -12,7 +12,7 @@ font-size: 60px;
 font-family: 'Phudu', cursive;
 background: white;
 width:300px;
-margin: 125px 150px 10px 125px;
+margin: 90px 150px 15px 175px;
 transform: rotate(10deg);
 
 `;
