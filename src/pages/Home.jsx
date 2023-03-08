@@ -13,7 +13,7 @@ font-family: 'Phudu', cursive;
 background: white;
 width:300px;
 margin: 125px 150px 10px 125px;
-transform: rotate(20deg);
+transform: rotate(10deg);
 
 `;
 
@@ -31,7 +31,8 @@ font-weight: 100;
 
 const TagLine = styled.div`
 color:white;
-font-size:25px;
+font-size:25px;font-family: 'Climate Crisis', cursive;
+margin-left: 400px;
 `;
 
 function Home() {
